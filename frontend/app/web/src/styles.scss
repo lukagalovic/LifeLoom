@@ -1,12 +1,60 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
 }
 
+/* Variables */
+
 body {
-  background: #333;
-  color: hsl(200, 100%, 90%);
-  max-width: 400px;
-  padding: 1rem;
-  margin: 0 auto;
+	background: #333;
+	color: hsl(200, 100%, 90%);
+	max-width: 400px;
+	padding: 1rem;
+	margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+}
+
+.btn-success {
+	&:hover {
+	}
+
+	&:focus {
+	}
+
+	&:active {
+	}
+
+	&:disabled {
+	}
+}
+
+.btn-danger {
+	&:hover {
+	}
+
+	&:focus {
+	}
+
+	&:active {
+	}
+
+	&:disabled {
+	}
+}
+
+.btn-info {
+	&:hover {
+	}
+
+	&:focus {
+	}
+
+	&:active {
+	}
+
+	&:disabled {
+	}
 }
